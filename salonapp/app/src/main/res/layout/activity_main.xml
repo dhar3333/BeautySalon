@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/img1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="-90dp"
+        android:src="@drawable/loginback">
+
+
+    </ImageView>
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/img1"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="-120dp"
+        android:height="50dp"
+        android:background="#FFF6AAAA"
+        android:gravity="center"
+        android:text="USERNAME"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textView"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="40dp"
+        android:width="250dp"
+        android:height="50dp"
+        android:background="#F6AAAA"
+        android:gravity="center"
+        android:text="PASSWORD"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textView2"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="60dp"
+        android:background="#FFF6AAAA"
+        android:text="LOGIN"
+        android:textColor="#0D47A1" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textView2"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="10dp"
+        android:text="forgot password?" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textView2"
+        android:layout_marginLeft="175dp"
+        android:layout_marginTop="10dp"
+        android:text="/" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textView2"
+        android:layout_marginLeft="190dp"
+        android:layout_marginTop="10dp"
+        android:text="Create an account" />
+
+
+</RelativeLayout>
